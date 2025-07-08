@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;500&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;500&family=Quicksand:wght@300;400;500;600;700&display=swap'); */
+*{
+    margin: 0 px;
+    padding: 0 px;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+body{
+    color: rgb(114, 156, 192);
+    background-color: white;
+    background-position: center;
+    background-size: cover;
+    height: 90vh;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    color:black;
+
+}
+nav h1{
+    font-size: 40px;
+    color: rgb(161, 125, 194);
+    margin-top: 20px;
+    margin-left: 10px;
+}
+nav h1 span{
+    color:rgb(83, 48, 83)
+}
+nav ul{
+    display: flex;
+}
+ul{
+    list-style: none;
+ }
+ul li a{
+    text-decoration:none;
+    margin-inline: 30px;
+    font-size: 24px;
+    color: rgb(114, 91, 135);
+}
+ nav ul li a:hover{
+    border-bottom: 3px solid plum;
+}
+
+ul li button{
+    width: 100px;
+    height: 36px;
+    background: transparent;
+    border: 2px solid plum;
+    border-radius: 6px;
+    cursor: pointer;
+}
+button:active{
+    transform: scale(0.98);
+} 
+/* blog */
+
+ :root{
+    --Playfair:'Playfair Display', serif;
+    --Quicksand:'Quicksand', sans-serif;
+    --Roboto:'Roboto', sans-serif;
+    --dark:#3c393d;
+    --exDark:#2b2b2b;
+} 
+/* body{
+    line-height: 1.4;
+    color: var(--dark);
+}  */
+img{
+    width: 100%;
+    display:block;
+}
+.title{
+    text-align: center;
+    padding: 1rem 0;
+}
+.title h2{
+    font-family: var(--Playfair);
+    font-size: 2.4rem;
+}
+.title p{
+    text-transform: uppercase;
+    padding: 0.6rem;
+}
+.cont{
+    max-width: 1320px;
+    margin: 0 auto;
+    padding: 0 1.2rem;
+} 
+.blog{
+    background: #f9f9f9;
+    padding:4.5rem 0;
+}
+.blog-content{
+    margin: 2rem 0;
+}
+.blog-img{
+    position: relative;
+}
+.blog-img span{
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    background: var(--exDark);
+    color: #fff;
+    font-size: 1.4rem;
+    padding: 0.3rem 0.6rem;
+}
+.blog-text{
+    margin: 2.2rem 0;
+    padding: 0 1rem;
+}
+.blog-text span{
+    font-weight: 300;
+    display: block;
+    padding-bottom: 0.5rem;
+}
+.blog-text h2{
+    font-family: var(--Playfair);
+    padding: 1rem 0;
+    font-size: 1.65rem;
+    font-weight: 500;
+}
+.blog-text p{
+    font-weight: 300;
+    font-size: 1.1rem;
+    opacity: 0.9;
+    padding-bottom: 1.2rem;
+}
+.blog-text a{
+    font-family: var(--Roboto);
+    font-size: 1.1rem;
+    text-decoration: none;
+    color: var(--dark);
+    display: inline-block;
+    background: var(--dark);
+    color: #fff;
+    padding: 0.55rem 1.2rem;
+    transition: all 0.5s ease;
+}
+.blog-text a:hover{
+    background: var(--exDark);
+}
+@media screen and (min-width: 768px){
+    .blog-content{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap:2rem;
+    }
+}
+@media screen and (min-width: 992px){
+    .blog-content{
+        grid-template-columns: repeat(3,1fr);
+    }
+}  
+.footer{
+    margin-top: 150px;
+    width: 100%;
+    padding: 100px 15%;
+    background: #333;
+    color: #efefef;
+    display: flex;
+}
+.footer div{
+    text-align: center;
+}
+.col-2{
+    flex-grow: 2;
+}
+.footer div h3{
+    font-weight: 300;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+}
+.col-1 a{
+    display: block;
+    text-decoration: none;
+    color: #efefef;
+    margin-bottom: 10px;
+}
+form input{
+    width: 400px;
+    height: 45px;
+    border-radius: 4px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    outline: none;
+    border: none;
+}
+form button{
+    background: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+    border-radius: 30px;
+    padding: 10px 30px;
+    font-size: 15px;
+    cursor: pointer;
+}
+.social-icons{
+    margin-top: 30px;
+}
+.social-icons i{
+    font-size: 22px;
+    margin:10px;
+    cursor: pointer;
+}
+.social-icons a{
+    color: #fff;
+}
+
+
+
+  
+
+
+
+
+
+    
+
+
+
+

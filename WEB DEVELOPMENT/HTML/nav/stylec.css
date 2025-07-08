@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;500&display=swap');
+*{
+    margin: 0 px;
+    padding: 0 px;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+body{
+    color: rgb(114, 156, 192);
+    background-color: white;
+    background-position: center;
+    background-size: cover;
+    height: 90vh;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    color:black;
+
+}
+nav h1{
+    font-size: 40px;
+    color: rgb(161, 125, 194);
+    margin-top: 20px;
+    margin-left: 10px;
+}
+nav h1 span{
+    color:rgb(83, 48, 83)
+}
+nav ul{
+    display: flex;
+}
+ul{
+    list-style: none;
+ }
+ul li a{
+    cursor: pointer;
+    text-decoration:none;
+    margin-inline: 30px;
+    font-size: 24px;
+    color: rgb(114, 91, 135);
+}
+ nav ul li a:hover{
+    border-bottom: 3px solid plum;
+}
+
+ul li button{
+    width: 100px;
+    height: 36px;
+    background: transparent;
+    border: 2px solid plum;
+    border-radius: 6px;
+    cursor: pointer;
+}
+button:active{
+    transform: scale(0.98);
+} 
+
+body{
+   font-size: 14px;
+}
+.contact{
+    color: black;
+    width:80%;
+    margin: 50px auto;
+}
+.contact-box{
+    display: flex;
+    background: #fff;
+}
+.contact-left{
+    flex-basis: 60%;
+    padding: 40px 60px;
+}
+.contact-right{
+    flex-basis: 40%;
+    padding: 40px;
+    background: purple;
+    color: #fff;
+}
+h1{
+    margin-bottom: 10px;
+}
+.contact p{
+    margin-bottom: 40px;
+}
+.input-row{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.input-row .input-group{  
+    flex-basis: 45%;
+}
+input{
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    outline: none;
+    padding-bottom: 5px;
+}
+.ent textarea{
+    width: 100%;
+    border: 1px solid #ccc;
+    outline: none;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.ent label{
+    margin-bottom: 6px;
+    display: block;
+    color: purple;
+}
+.ent button{
+    cursor: pointer;
+    background: purple;
+    width: 100px;
+    border: none;
+    outline: none;
+    color: #fff;
+    height: 35px;
+    border-radius:30px;
+    margin-top: 20px;
+    box-shadow: 0px 5px 15px 0px rgba(28,0,181,0.3);
+}
+.contact-left h3{
+    color: purple;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+.contact-right h3{
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+tr td:first-child{
+    padding-right: 20px;
+}
+tr td{
+    padding-top: 20px;
+    color: #fff;
+}
+.footer{
+    margin-top: 150px;
+    width: 100%;
+    padding: 100px 15%;
+    background: #333;
+    color: #efefef;
+    display: flex;
+}
+.footer div{
+    text-align: center;
+}
+.col-2{
+    flex-grow: 2;
+}
+.footer div h3{
+    font-weight: 300;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+}
+.col-1 a{
+    display: block;
+    text-decoration: none;
+    color: #efefef;
+    margin-bottom: 10px;
+}
+.ff input{
+    width: 400px;
+    height: 45px;
+    border-radius: 4px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    outline: none;
+    border: none;
+}
+.ff button {
+    background: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+    border-radius: 30px;
+    padding: 10px 30px;
+    font-size: 15px;
+    cursor: pointer;
+}
+.social-icons{
+    margin-top: 30px;
+}
+.social-icons i{
+    font-size: 22px;
+    margin:10px;
+    cursor: pointer;
+}
+.social-icons a{
+    color: #fff;
+}

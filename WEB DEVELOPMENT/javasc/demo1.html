@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <style>
+        body{
+            text-align: center;
+            background-color: purple;
+            color: plum;
+        }
+    </style>
+</head>
+<body>
+  <h1>Calculator</h1><hr>
+  <input type="number" id="in" step="any">
+  <select name="" id="op">
+    <option value="+">+</option>
+    <option value="-">-</option>
+    <option value="*">x</option>
+    <option value="/">/</option>
+  </select>
+  <input type="number" id="ini" step="any">
+  <hr>
+  <button onclick="mycal()">calculate</button><hr>
+  <label for="">Result:</label>
+  <input type="text" id="re" readonly>
+  <script>
+    function mycal(){
+        var in1=document.getElementById("in").value;
+        var opt=document.getElementById("op").value;
+        var in2=document.getElementById("ini").value;
+
+        if(opt=="+"){
+            var res=parseFloat(in1)+parseFloat(in2);
+        }
+        if(opt=="-"){
+            var res=parseInt(in1)-parseInt(in2);
+        }
+        if(opt=="*"){
+            var res=parseInt(in1)*parseInt(in2);
+        }
+        if(opt=="/"){
+            var res=parseInt(in1)/parseInt(in2);
+        }
+        document.getElementById("re").value=res;
+
+    }
+  </script>
+</body>
+</html>

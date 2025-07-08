@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;500&display=swap');
+*{
+    margin: 0 px;
+    padding: 0 px;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    color:black;
+
+}
+nav h1{
+    font-size: 40px;
+    color: rgb(161, 125, 194);
+    margin-top: 20px;
+    margin-left: 10px;
+}
+nav h1 span{
+    color:rgb(83, 48, 83)
+}
+nav ul{
+    display: flex;
+}
+ul{
+    list-style: none;
+ }
+ul li a{
+    text-decoration:none;
+    margin-inline: 30px;
+    font-size: 24px;
+    color: rgb(114, 91, 135);
+}
+ nav ul li a:hover{
+    border-bottom: 3px solid plum;
+}
+
+ul li button{
+    width: 100px;
+    height: 36px;
+    background: transparent;
+    border: 2px solid plum;
+    border-radius: 6px;
+    cursor: pointer;
+}
+button:active{
+    transform: scale(0.98);
+} 
+#blog-contain{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 8vw;
+}
+#blog-contain .blogs{
+    width: 60%;
+    margin: 0 auto;
+}
+#blog-contain .blogs img{
+    width: 100%;
+    border-radius: 2px;
+}
+#blog-contain .blogs .post h3{
+    color: #29303B;
+    padding: 15px 0 10px 0;
+    align-items: center;
+    justify-content: center;
+}
+#blog-contain .blogs .post p{
+    color: #757373;
+    padding-bottom: 20px;
+    text-align: justify;
+}
+#blog-contain .blogs .post a{
+    text-decoration: none;
+    font-size: 0.9rem;
+    padding: 13px 35px;
+   background-color: purple;
+   color: #fff;
+}
+#blog-contain .blogpost{
+    width: 60%;
+    margin: 0 auto;
+}
+.footer{
+    margin-top: 150px;
+    width: 100%;
+    padding: 100px 15%;
+    background: #333;
+    color: #efefef;
+    display: flex;
+}
+.footer div{
+    text-align: center;
+}
+.col-2{
+    flex-grow: 2;
+}
+.footer div h3{
+    font-weight: 300;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+}
+.col-1 a{
+    display: block;
+    text-decoration: none;
+    color: #efefef;
+    margin-bottom: 10px;
+}
+form input{
+    width: 400px;
+    height: 45px;
+    border-radius: 4px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    outline: none;
+    border: none;
+}
+form button{
+    background: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+    border-radius: 30px;
+    padding: 10px 30px;
+    font-size: 15px;
+    cursor: pointer;
+}
+.social-icons{
+    margin-top: 30px;
+}
+.social-icons i{
+    font-size: 22px;
+    margin:10px;
+    cursor: pointer;
+}
+.social-icons a{
+    color: #fff;
+}
+.header-title{
+    width: 90%;
+    font-size: 2.6rem;
+    color: #29303B;
+    text-align: center;
+    margin-bottom: 1rem;
+}

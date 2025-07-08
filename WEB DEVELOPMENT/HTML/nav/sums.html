@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+*{
+    margin: 0 px;
+    padding: 0 px;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background: url(thumb-1920-692043.jpg);
+    color: aliceblue;
+    background-position: center;
+    background-size: cover;
+    height: 90vh;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+    color: antiquewhite;
+
+}
+ul{
+    display: none;
+    list-style: none;
+}
+ul li a{
+    text-decoration:none;
+    margin-inline: 30px;
+    font-size: 50px;
+    color: blueviolet;
+}
+ul li a:hover{
+    border-bottom: 3px solid red;
+    border-radius:4px;
+}
+
+.btn{
+    padding:6px 20px;
+    background: transparent;
+    border: 2px solid plum;
+    border-radius: 6px;
+    cursor: pointer;
+}
+.btn:active{
+    transform: scale(0.98);
+}
+.slider .title{
+    text-align: center;
+    margin: 30px auto;
+}
+.wrapper{
+    border: 1px solid red;
+}
+.postwrapper{
+    border: 1px dashed burlywood;
+    width: 84%;
+    overflow: hidden;
+    height: 300px;
+    margin: 0px auto;
+    padding: 10px 0px 10px 0px;
+}
+.postwrapper .post{
+    display: inline-block;
+    background-color: white;
+    height: 350px;
+    width: 300px;
+    margin: 0px 10px;
+    border-radius: 5px;
+    box-shadow:1rem 1rem 1rem -1rem #9a939333;
+}
+.postwrapper .post .postinfo{
+    height: 100px;
+    border: 1px solid green;
+    padding: 0px 5px;
+}
+.post .image{
+    width: 100%;
+    height: 200px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+<div class="wrapper">
+    <div class="slider">
+      <h1 class="title">Latest news</h1>
+      <i class="far fa-chevron-left prev"></i>
+      <i class="far fa-chevron-right next"></i>
+
+
+      <div class="postwrapper">
+        <div class="post">
+          <img src="bts-members-1-03a9c478f1794c448bcb5f74bf94812c.jpg" class="image">
+          <div class="postinfo">
+            <h4><a href="about.html">The current most popular k-pop boyband</a></h4>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+  <script type="text/javascript" src="http://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;500&display=swap');
+  *{
+      margin: 0 px;
+      padding: 0 px;
+      font-family: 'Poppins', sans-serif;
+      box-sizing: border-box;
+      scroll-behavior: smooth;
+      scroll-padding-top: 2rem;
+      box-sizing: border-box;
+  }
+  :root{
+      --container-color:rgb(114, 156, 192);
+      --second-color:purple;
+      --text-color:plum;
+      --bg-color:white;
+  }
+  ::selection{
+      color: var(--bg-color);
+      background: var(--second-color);
+  }
+  a{
+      text-decoration: none;
+  }
+  li{
+      list-style: none;
+  }
+  img{
+      width: 100%;
+  
+  }
+  section{
+      padding: 3rem 0 2rem;
+  }
+  header{
+      position: fixed;
+      top:0;
+      left: 0;
+      width: 100%;
+      z-index: 200;
+  }
+
+  <hr>
+  <footer>
+      <p>Greatzone 2023 copyright all rights reserved</p>
+      <ul>
+          <li>
+              <a href="https://in.linkedin.com/"><i class="fab fa-linkedin-in"></i></a>
+          </li>
+          <li>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+          </li>
+          <li>
+              <i class="fab fa-whatsapp"></i>
+          </li>
+      </ul>
+  </footer>
